@@ -1,3 +1,7 @@
 # qa_guru_python_feb
-i`m teching autotest again
+
+i`m teaching autotest again
+
 i wrote some text
+
+Эта строчка добавлена из локальной IDE
