@@ -1,4 +1,6 @@
 import pytest
+import random
+
 
 @pytest.fixture
 def teardown():
