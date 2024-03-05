@@ -1,6 +1,6 @@
 # qa_guru_python_feb
 
-i`m teaching autotest again
+i`m learning autotest again
 
 i wrote some text
 
