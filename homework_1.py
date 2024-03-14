@@ -1,5 +1,5 @@
 import pytest
-from selene import browser, be, have
+from selene import browser, be, have, config
 
 
 @pytest.fixture(scope='session')
