@@ -4,10 +4,10 @@ from selene import browser, be, have, config
 
 @pytest.fixture(scope='session')
 def browser_set():
-    browser.config.browser_name = 'firefox'
-    browser.config.hold_browser_open = True
-    browser.config.window_width = 800
-    browser.config.window_height = 600
+    config.browser_name = 'firefox'
+    config.hold_browser_open = True
+    config.window_width = 800
+    config.window_height = 600
     yield
 
 
