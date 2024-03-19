@@ -1,16 +1,20 @@
+from attr import s
 from selene import browser, config, be, have
 import pytest
+
+browser.
 
 # config.browser_name = "Firefox"
 
 
 @pytest.fixture()
 def browser_set():
-    browser.open("https://demoqa.com/automation-practice-form")
+    browser.open("https://demoqa.com/automation-practice-form").should
     yield
 
 
-browser.element('[id=firstname]').
-browser.element('id=lastname')
-browser.element('id=useremail')
+s('[id=firstname]').
+s('id=lastname')
+s('id=useremail')
 
+browser.
